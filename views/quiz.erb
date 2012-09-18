@@ -5,7 +5,7 @@
     <% @questions.each do |name, question| %>
       <li>
         <strong><%= name %></strong>
-        <input type="text" name="questions[<%= question.name %>]" value="<%= @value %>" />
+        <input type="text" name="questions[<%= question.name %>]" />
       </li>
     <% end %>
   </ul>
